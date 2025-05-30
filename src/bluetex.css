@@ -272,14 +272,15 @@ table tr td:last-child { margin-bottom: 0; }
 
 #write .CodeMirror-wrap .CodeMirror-code pre { padding-left: 12px; }
 
+/* 内联代码样式 */
 #write code, tt {
     padding: 2px 6px;
     border-radius: 4px;
-    font-family: 'Cascadia Code', "PingFang SC";
+    font-family: 'Cascadia Code', "PingFang SC"; /* 使用等宽字体 */
     font-size: 0.92rem;
-    color: #e96900;
-    background-color: #f8f8f8;
-    border: 1px solid #e9690017;
+    color: #e96900; /* 橙色代码文本 */
+    background-color: #f8f8f8; /* 浅灰色背景 */
+    border: 1px solid #e9690017; /* 浅橙色边框 */
 }
 tt { margin: 0 2px; }
 
@@ -465,34 +466,40 @@ h6.md-end-block.md-heading:hover:after { content: "h6"; top: 0.16rem; }
 .outline-label { font-family: 'Cascadia Code',"PingFang SC"; }
 
 
+/* 警告框基础样式 */
 .md-alert {
     padding: 0.1em 1em;
-    border-radius: 0px 8px 8px 0px;
+    border-radius: 0px 8px 8px 0px; /* 右侧圆角 */
 }
 
+/* 提示类型警告框 */
 .md-alert.md-alert-note {
-    background: #58a5ff24;
-    color: #0969da;
+    background: #58a5ff24; /* 浅蓝色背景 */
+    color: #0969da; /* 深蓝色文本 */
 }
 
+/* 技巧类型警告框 */
 .md-alert.md-alert-tip {
-    background: #31c75c29;
-    color : #1f883d;
+    background: #31c75c29; /* 浅绿色背景 */
+    color : #1f883d; /* 深绿色文本 */
 }
 
+/* 重要类型警告框 */
 .md-alert.md-alert-important {
-    background: #8566fb21;
-    color : #8250df;
+    background: #8566fb21; /* 浅紫色背景 */
+    color : #8250df; /* 深紫色文本 */
 }
 
+/* 警告类型警告框 */
 .md-alert.md-alert-warning {
-    background: #d8a13236;
-    color : #9a6700;
+    background: #d8a13236; /* 浅橙色背景 */
+    color : #9a6700; /* 深橙色文本 */
 }
 
+/* 危险类型警告框 */
 .md-alert.md-alert-caution {
-    background: #d12f3a21;
-    color : #cf222e;
+    background: #d12f3a21; /* 浅红色背景 */
+    color : #cf222e; /* 深红色文本 */
 }
 
 .modal-content {
